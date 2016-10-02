@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Paradox Coming-Soon Page">
+    <meta name="keywords" content="coming-soon,bootstrap">
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title - Work</title> 
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/font-awesome.min.css")
+    @Styles.Render("~/Content/animate.css")
+    @Styles.Render("~/Content/owl.carousel.css")
+    @Styles.Render("~/Content/magnific-popup.css")
+    @Styles.Render("~/Content/jquery.mCustomScrollbar.min.css")
+    @Styles.Render("~/Content/vegas.min.css")
+    @Styles.Render("~/Content/bootstrap-theme.min.css")
+    @Styles.Render("~/Content/bootstrap.min.css")
+    @Styles.Render("~/Content/reset.css")
+    @Styles.Render("~/Content/structure.css")
+    @Styles.Render("~/Content/style.css")
+    @Styles.Render("~/Content/responsive.css")
+</head>
+<body class="slideshow-bg">
+
+    @RenderBody()
+
+    @Scripts.Render("~/Scripts/jquery-1.11.3.min.js")
+    @Scripts.Render("~/Scripts/plugins.js")
+    @Scripts.Render("~/Scripts/vegas.min.js")
+    @Scripts.Render("~/Scripts/kenburn.js")
+    @Scripts.Render("~/Scripts/common.js")
+
+    @Scripts.Render("~/Scripts/responsive.js")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
